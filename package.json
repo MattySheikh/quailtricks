@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "test": "gulp test",
-    "postinstall": "gulp default"
+    "prestart": "gulp",
+    "postinstall": "gulp"
   },
   "devDependencies": {
     "jshint-loader": "~0.8.3",
