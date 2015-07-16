@@ -1,6 +1,10 @@
 {
   "name": "quailtricks",
   "version": "0.0.0",
+  "scripts": {
+    "test": "gulp test",
+    "postinstall": "gulp default"
+  },
   "devDependencies": {
     "jshint-loader": "~0.8.3",
     "traceur-loader": "~0.6.3",
@@ -20,9 +24,6 @@
     "chalk": "~1.0.0",
     "uglify-save-license": "~0.4.1",
     "wrench": "~1.5.8"
-  },
-  "scripts": {
-    "test": "gulp test"
   },
   "dependencies": {
     "gulp": "~3.9.0",
