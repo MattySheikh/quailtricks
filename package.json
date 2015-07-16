@@ -1,11 +1,11 @@
 {
   "name": "quailtricks",
   "version": "0.0.0",
-  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "gulp test"
   },
-  "devDependencies": {
+  "dependencies": {
     "gulp": "~3.9.0",
     "gulp-autoprefixer": "~2.3.1",
     "gulp-angular-templatecache": "~1.6.0",
