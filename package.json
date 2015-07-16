@@ -1,7 +1,26 @@
 {
   "name": "quailtricks",
   "version": "0.0.0",
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint-loader": "~0.8.3",
+    "traceur-loader": "~0.6.3",
+    "main-bower-files": "~2.8.0",
+    "merge-stream": "~0.1.7",
+    "jshint-stylish": "~2.0.0",
+    "wiredep": "~2.2.2",
+    "karma": "~0.12.36",
+    "karma-jasmine": "~0.3.5",
+    "karma-chrome-launcher": "~0.1.12",
+    "karma-ng-html2js-preprocessor": "~0.1.2",
+    "concat-stream": "~1.5.0",
+    "require-dir": "~0.3.0",
+    "browser-sync": "~2.7.12",
+    "browser-sync-spa": "~1.0.2",
+    "http-proxy-middleware": "~0.0.5",
+    "chalk": "~1.0.0",
+    "uglify-save-license": "~0.4.1",
+    "wrench": "~1.5.8"
+  },
   "scripts": {
     "test": "gulp test"
   },
@@ -30,25 +49,7 @@
     "gulp-protractor": "~1.0.0",
     "gulp-sourcemaps": "~1.5.2",
     "gulp-less": "~3.0.3",
-    "gulp-webpack": "~1.5.0",
-    "jshint-loader": "~0.8.3",
-    "traceur-loader": "~0.6.3",
-    "main-bower-files": "~2.8.0",
-    "merge-stream": "~0.1.7",
-    "jshint-stylish": "~2.0.0",
-    "wiredep": "~2.2.2",
-    "karma": "~0.12.36",
-    "karma-jasmine": "~0.3.5",
-    "karma-chrome-launcher": "~0.1.12",
-    "karma-ng-html2js-preprocessor": "~0.1.2",
-    "concat-stream": "~1.5.0",
-    "require-dir": "~0.3.0",
-    "browser-sync": "~2.7.12",
-    "browser-sync-spa": "~1.0.2",
-    "http-proxy-middleware": "~0.0.5",
-    "chalk": "~1.0.0",
-    "uglify-save-license": "~0.4.1",
-    "wrench": "~1.5.8"
+    "gulp-webpack": "~1.5.0"
   },
   "engines": {
     "node": ">=0.10.0"
